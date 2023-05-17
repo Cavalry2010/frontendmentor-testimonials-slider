@@ -1,0 +1,78 @@
+@media (max-width: 26em) {
+  body {
+    background-size: 100%;
+  }
+
+  main {
+    background-size: 90%;
+    background-position: top 4rem center;
+  }
+
+  .container {
+    max-width: 33rem;
+    overflow: unset;
+  }
+
+  .align-center {
+    align-items: start;
+  }
+
+  .slider {
+    width: 33rem;
+    height: 54rem;
+    margin-top: 6.75rem;
+  }
+
+  .slide-item {
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-content: center;
+    row-gap: 5rem;
+  }
+
+  .item-text {
+    margin: 0;
+    background-size: 20%;
+    background-position: top 0.75rem center;
+  }
+
+  .quote {
+    font-size: 1.8rem;
+    line-height: 1.3;
+    padding: 0 1rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .testimonial-details {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .testimonial-name,
+  .testimonial-role {
+    font-size: 1.6rem;
+  }
+
+  .item-img {
+    grid-row: 1;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .slider-buttons {
+    top: -4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 8rem;
+  }
+
+  .btn {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .btn-icon {
+    height: 1.4rem;
+  }
+}
